@@ -1,5 +1,5 @@
 {
-  "name": "class-namer",
+  "name": "simple-class-namer",
   "version": "1.0.0",
   "description": "tiny classname utilities",
   "main": "dist/index.js",
