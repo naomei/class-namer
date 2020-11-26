@@ -1,5 +1,5 @@
 {
-  "name": "walk",
+  "name": "class-namer",
   "version": "1.0.0",
   "description": "tiny classname utilities",
   "main": "dist/index.js",
