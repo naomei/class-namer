@@ -9,7 +9,13 @@ supports `array/object`.
 
 # usage
 
+```bash
+npm i simple-class-namer -S
+```
+
 ```ts
+import { classNamer } from "simple-class-namer";
+
 classNamer("a", "b", "c", false, null) // "a b c"
 classNamer(["a", false, "b"]) // "a b"
 classNamer({a: null, b: true, c: true}) // "b c"
