@@ -11,6 +11,3 @@ classname utilities.
 ```ts
 classNamer("a", "a", null, { a: null, b: true, c: false }) // return "a b"
 ```
-
-
-/bundlephobia/dependency-count/react 
