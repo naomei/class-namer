@@ -7,7 +7,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/naomei/class-namer.git"
+    "url": "https://github.com/naomei/simple-class-namer.git"
   },
   "keywords": [
     "typescript",
