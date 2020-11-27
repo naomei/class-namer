@@ -1,4 +1,8 @@
-import { uniq, isArray, isObject, compact } from "./utils";
+const uniq = (input: any[]) => Array.from(new Set(input));
+const compact = (input: any[]) => input.filter(Boolean);
+const isArray = (input: any): input is any[] => Array.isArray(input);
+const isObject = (input: any): input is Record<string, any> =>
+  (typeof input === "object" || typeof input === "function") && input !== null;
 
 export type ClassNamerArg = any;
 
