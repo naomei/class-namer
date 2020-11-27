@@ -1,6 +1,6 @@
-export type ClassNamerArg = any;
+import { uniq, isArray, isObject, compact } from "./utils";
 
-const uniq = (input: any[]) => Array.from(new Set(input));
+export type ClassNamerArg = any;
 
 export const classNamer = (...inputs: ClassNamerArg[]) => {
   const result = inputs.reduce((prev, current) => {
@@ -14,7 +14,9 @@ export const classNamer = (...inputs: ClassNamerArg[]) => {
       typeof current === "boolean"
     ) {
       prev.push(current);
-    } else {
+    }else if(isArray(current)) {
+      compact(current).forEach(d => prev.push(d))
+    } else if(isObject(current)) {
       for (const key in current) {
         if (current[key]) {
           prev.push(key);
