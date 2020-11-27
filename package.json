@@ -1,6 +1,6 @@
 {
   "name": "simple-class-namer",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "simple classname utilities",
   "main": "dist/index.js",
   "author": "Naohiro Urayama <naohiro.urayama@gmail.com>",
