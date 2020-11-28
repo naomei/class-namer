@@ -18,9 +18,10 @@
     "isolatedModules": true,
     "jsx": "react",
     "baseUrl": ".",
-    "declaration": true,
     "outDir": "dist",
-    "removeComments": true
+    "removeComments": true,
+    "declaration": true,
+    "emitDeclarationOnly": true,
   },
   "include": [
     "src"
